@@ -1,0 +1,342 @@
+/* -------------------- CSSは一番下から書き始めてください！ -------------------- */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    position :relative;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://shirotube.com/wp-content/uploads/2019/10/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2019-10-03-21.58.58.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .music {
+    background-color: #993333;
+    margin:10px 10px;
+  }
+
+  .sports {
+    background-color: #666666;
+    margin:10px 10px;
+  }
+
+  .food {
+    background-color: #993333;
+    margin:10px 10px;
+  }
+
+  .travel {
+    background-color: #666666;
+    margin:10px 10px;
+  }
+
+  .game {
+    background-color: #666666;
+    margin:10px 10px;
+  }
+
+  .study {
+    background-color: #993333;
+    margin:10px 10px;
+  }
+
+  .vehicle {
+    background-color: #666666;
+    margin:10px 10px;
+  }
+
+  .shopping {
+    background-color: #993333;
+    margin:10px 10px;
+  }
+
+  .restaurant {
+    background-color: #993333;
+    margin:10px 10px;
+  }
+
+  .comic {
+    background-color: #666666;
+    margin:10px 10px;
+  }
+
+  .anime {
+    background-color: #993333;
+    margin:10px 10px;
+  }
+
+  .movie {
+    background-color: #666666;
+    margin:10px 10px;
+  }
+
+  .computer {
+    background-color: #666666;
+    margin:10px 10px;
+  }
+
+  .animal {
+    background-color: #993333;
+    margin:10px 10px;
+  }
+
+  .SNS {
+    background-color: #666666;
+    margin:10px 10px;
+  }
+
+  .gavament {
+    background-color: #666666;
+    margin:10px 10px;
+  }
+  
+  .btn {
+    width:175px;
+    padding:20px 0px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+
+  .btn-wrapper a{
+    text-align:center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  .fas {
+    margin-right: 5px;
+  }
+
+  .far {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    text-align:center;
+  }
+
+  .header-left a{
+    line-height: 65px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+
+  .header-left h1{
+    margin-left:10px;
+    line-height: 30px;
+    padding: 0 0 px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    position: absolute;
+    left:40%;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+    height:1000px;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #b3aeb5;
+  }
+  
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  /*全体*/
+.hidden_box {
+  margin: 2em 0;/*前後の余白*/
+  padding: 0;
+}
+
+
+/*チェックは見えなくする*/
+.hidden_box input {
+  display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+  padding: 10px 0;
+  height: auto;
+  opacity: 1;
+}
+  
+.message-form{
+  float:left;
+  color:#5f5d60;
+  border-top: 1px solid #5f5d60;
+  width:100%;
+}
+
+
+.message-wrapper{
+  background-color:#f7f7f7;
+  height:300px;
+  
+}
+
+
+  /* -------------------- CSSはここから追加していきましょう！ -------------------- */
+  .menu-icon{
+    display:none;
+    float:right;
+    font-size:25px;
+    color:white;
+    margin-top:21px;
+  }
