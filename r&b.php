@@ -1,8 +1,8 @@
 <?php
      // DB接続設定
- $dsn = 'mysql:dbname=tb220242db;host=localhost';
- $user = 'tb-220242';
- $password = 'N95N7ba6UV';
+ $dsn = 'xxxxxxxxx';
+ $user = 'xxxxxxxxx';
+ $password = 'xxxxxxxxx';
  $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 ?>
 <!DOCTYPE html>
