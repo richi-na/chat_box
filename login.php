@@ -17,9 +17,9 @@
    <p>新規の方は<a href="nosub.php">こちら</a></p>
  <?php
  session_start();
- $dsn = 'mysql:dbname=tb220242db;host=localhost';
- $user = 'tb-220242';
- $password = 'N95N7ba6UV';
+ $dsn = 'xxxxxxxxx';
+ $user = 'xxxxxxxxx';
+ $password = 'xxxxxxxxx';
  $dbh = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
  if(!empty($_POST["mail"]) && !empty($_POST["pass"])){
