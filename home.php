@@ -1,8 +1,8 @@
 <?php
 session_start();
-$dsn = 'mysql:dbname=tb220242db;host=localhost';
-$user = 'tb-220242';
-$password = 'N95N7ba6UV';
+$dsn = 'xxxxxxxxx';
+$user = 'xxxxxxxxx';
+$password = 'xxxxxxxxx';
 $dbh = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 if (isset($_SESSION['id'])) {//ログインしているとき
     $username = $_SESSION['name'];
